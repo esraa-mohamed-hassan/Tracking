@@ -1,0 +1,208 @@
+.breadcrumbs a {
+    color: #03c;
+}
+
+.first_watch_header {
+    border-left: 1rem solid #f1f1f1 !important;
+    padding-left: 1rem;
+}
+
+.watch_row.price0 {
+    border-left: 1rem solid #007bff;
+}
+
+.watch_row.price1 {
+    border-left: 1rem solid #ff6384;
+}
+
+.watch_row.price2 {
+    border-left: 1rem solid #ffc63b;
+}
+
+.first_watch_header {
+    border-left: 1rem solid #f1f1f1;
+    padding-left: 1rem;
+}
+
+.green {
+    color: #38ab38;
+}
+
+.column {
+    float: right;
+    text-align: right;
+}
+
+.data_left {
+    float: left;
+    text-align: left;
+}
+
+.p_right {
+    text-align: right;
+    letter-spacing: 0px;
+    color: #070550;
+}
+
+.span_cat {
+    color: #e09b34;
+    font-weight: 500;
+}
+
+.read_more{
+    color: #5233cc;direction: ltr
+}
+.dir_rtl{
+    direction: rtl;
+}
+
+.date_rang {
+    margin: auto;
+    padding-top: 1%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    margin-bottom: 1%;
+}
+
+.chart_border {
+    padding-top: 1%;
+    box-shadow: 0px 3px 15px #0000001A;
+    border: 1px dashed #707070;
+    border-radius: 4px;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+}
+
+.text_bold {
+    color: #020121;
+    font: normal normal bold 18px/24px cairo;
+}
+
+h1.text_bold {
+    color: #020121;
+    font: normal normal bold 20px/30px cairo;
+}
+
+/*.apexcharts-toolbar {*/
+/*    display: none !important;*/
+/*}*/
+
+.span_first_col {
+    background: rgb(255, 99, 132) !important;
+    color: rgb(255, 99, 132);
+    height: 12px;
+    width: 12px;
+    left: 0px;
+    top: 0px;
+    border-width: 0px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    border-style: solid;
+}
+
+.span_second_col {
+    background: rgb(255, 198, 59) !important;
+    color: rgb(255, 198, 59);
+    height: 12px;
+    width: 12px;
+    left: 0px;
+    top: 0px;
+    border-width: 0px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    border-style: solid;
+}
+
+.span_third_col {
+    background: rgb(0, 123, 255) !important;
+    color: rgb(0, 123, 255);
+    height: 12px;
+    width: 12px;
+    left: 0px;
+    top: 0px;
+    border-width: 0px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    border-style: solid;
+}
+
+.p_first_col {
+    text-align: left;
+    font: normal normal bold 19px/26px Nunito;
+    letter-spacing: 0px;
+    color: #070550;
+    text-transform: capitalize;
+}
+
+.price_rtl{
+    direction: rtl;
+}
+.highest_price {
+    color: #c30;
+}
+.lowest_price {
+    color: green;
+}
+
+.W_15{
+    width: 15%;
+}
+
+.download_report{
+    margin-top: 15%;
+}
+.download_report .fa-file-pdf-o:before {
+    font-size: xxx-large;
+}
+
+.download_report .fa-file-excel-o:before {
+font-size: xxx-large;
+}
+
+.download_result{
+    margin-top: 3%;
+}
+
+.download_result .fa-file-pdf-o:before {
+    font-size: xx-large;
+}
+
+.download_result .fa-file-excel-o:before {
+    font-size: xx-large;
+}
+.red{
+    color: #ff0000;
+}
+.out_stock{
+    color: #727272;
+    font-weight: 700;
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder{
+    color: #212529!important;
+}
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    border: 1px solid #8a8a90;
+    border-radius: 4px;
+}
+.bootstrap-select.show-tick .dropdown-menu li a span.text {
+    margin-right: 8px!important;
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6;
+}

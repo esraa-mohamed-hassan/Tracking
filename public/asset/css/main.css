@@ -1,0 +1,231 @@
+body {
+    background: #fafafa;
+    /*background: #e1e2f285;*/
+    padding-top: 72px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.the-top-header-1 {
+    background: #343a40;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.11);
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.the-table-content-1 {
+    /*width: 100%;*/
+    min-height: 1000px;
+    /*max-width: 1149px;*/
+    /*background: #fff;*/
+    /*box-shadow: 0px 14px 12px rgba(0, 0, 0, 0.16);*/
+    /*border-bottom: 4px solid #127aff;*/
+}
+
+.the-all-buttons-1 {
+    width: 100%;
+    background: #e3e7ea;
+    border-radius: 4px;
+}
+
+.the-login-1 {
+    max-width: 429px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 14px 12px rgba(0, 0, 0, 0.16);
+    border-bottom: 4px solid #127aff;
+}
+
+#overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: rgba(255, 255, 255, 0.5);
+    display: none;
+}
+
+#overlay .overlay__inner {
+    display: block;
+    width: 75px;
+    top: 20%;
+    position: absolute;
+    left: 45.5%;
+    margin: -38px 0 0 -38px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: unset;
+}
+
+a {
+    color: white;
+}
+
+.fa-file-pdf-o:before {
+    content: "\f1c1";
+    color: red;
+}
+
+.fa-file-excel-o:before {
+    content: "\f1c3";
+    color: green;
+}
+
+.fa-list-ul {
+    color: #000000 !important;
+}
+
+.the-top-header-1 {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #0000001C;
+}
+
+.open-menu-1 .the-top-header-1 {
+    left: 220px;
+}
+
+.open-menu-1 .the-table-content-1 {
+    margin-left: 220px;
+}
+
+.div_fa_list {
+    background: #eaeaea;
+    padding: 9px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.site_name {
+    background: #eaeaea 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    margin: 8px 7px 0;
+}
+
+.site_name h4 {
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* Fixed sidenav, full height */
+
+.open-menu-1 .sidenav {
+    left: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: -220px;
+    overflow-x: hidden;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #0000001C;
+}
+
+
+/* Style the sidenav links and the dropdown button */
+
+.sidenav a,
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font: normal normal 300 16px/30px Cairo;
+}
+
+.dropdown-btn:focus {
+    outline: none;
+}
+
+
+/* On mouse-over */
+
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #f1f1f1;
+    background: #344f85ba 0% 0% no-repeat padding-box;
+}
+
+
+/* Add an active class to the active dropdown button */
+
+.active {
+    background: #e0e0e0 0% 0% no-repeat padding-box !important;
+    color: #212529 !important;
+}
+
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+
+.dropdown-container {
+    display: none;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+}
+
+
+/* Optional: Style the caret down icon */
+
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+    padding-top: 7px;
+}
+
+.profile {
+    background: #EFEFEF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+}
+
+
+/* Some media queries for responsiveness */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+table.dataTable {
+    background: #fff;
+}
+
+.menu_active_links {
+    color: #f1f1f1!important;
+    background: #344f85ba 0% 0% no-repeat padding-box!important;
+}
+
+.div_container_user {
+    padding: 2%;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 2px;
+    text-align: center;
+}
+
+.alert-success ul {
+    margin-bottom: -11px;
+}
